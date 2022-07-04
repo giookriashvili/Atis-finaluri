@@ -113,41 +113,31 @@ header .headerText .checkOffer {
   justify-content: center;
 }
 
-@media (max-width: 700px) {
-  .mainContainer {
-    padding: 0px;
-  }
-
-  .greeceText {
-    width: 100% !important;
-    height: 100px !important;
-  }
-
-  .blueBoxFlexbox {
-    display: block !important;
-  }
-  .blueBoxFlexbox .blueBoxItems {
-    margin-left: 50%;
-    transform: translateX(-30%);
-    padding-top: 10px;
-    padding-bottom: 0px;
-  }
-  .blueBoxFlexbox .blueBoxItemsP {
-    margin-left: 50%;
-    transform: translateX(-30%);
-    padding: 0px;
-  }
-  .blueBoxFlexbox .blueBoxSearch {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    padding: 0px;
-    padding-bottom: 15px !important;
-    margin-top: -10px;
-  }
-  .blueBoxFlexbox .bigHr {
-    width: 120px;
-  }
+.block {
+  display: block;
 }
+
+.half {
+  height: 467px;
+}
+
+.smallPhotos {
+  width: 30%;
+}
+.smallPhotos img {
+  width: 100%;
+  height: 272px;
+}
+
+.bigPhoto {
+  height: 545px;
+  width: 40%;
+}
+
+.secondPhoto {
+  padding-top: 33px;
+}
+
 .cards {
   background-color: #f7f7f7;
 }
@@ -157,6 +147,15 @@ header .headerText .checkOffer {
   color: #697899;
   font-weight: 400;
   font-family: "Roboto";
+}
+
+.popPlacesText {
+  font-size: 16px;
+  color: #697899;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-top: -107px;
+  padding-bottom: 30px;
 }
 
 .greyCard {
@@ -286,6 +285,73 @@ header .headerText .checkOffer {
   top: 32px;
 }
 
+@media (max-width: 700px) {
+  .mainContainer {
+    padding: 0px;
+  }
+
+  .greeceText {
+    width: 100% !important;
+    height: 100px !important;
+  }
+
+  .blueBoxFlexbox {
+    display: block !important;
+  }
+  .blueBoxFlexbox .blueBoxItems {
+    margin-left: 50%;
+    transform: translateX(-30%);
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .blueBoxFlexbox .blueBoxItemsP {
+    margin-left: 50%;
+    transform: translateX(-30%);
+    padding: 0px;
+  }
+  .blueBoxFlexbox .blueBoxSearch {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 0px;
+    padding-bottom: 15px !important;
+    margin-top: -10px;
+  }
+  .blueBoxFlexbox .bigHr {
+    width: 120px;
+  }
+
+  .smallPhotos {
+    width: 100%;
+    padding: 0px !important;
+  }
+  .smallPhotos img {
+    height: 400px;
+  }
+
+  .bigPhoto {
+    width: 100%;
+    height: 400px;
+    padding: 0px !important;
+    padding-top: 30px !important;
+  }
+
+  .half {
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+  }
+
+  .secondSmallPhotosDiv {
+    padding-top: 30px !important;
+  }
+
+  .carousel {
+    height: 500px;
+  }
+  .carousel img {
+    height: 500px;
+  }
+}
 @media (min-width: 1400px) {
   .container,
 .container-lg,
