@@ -223,6 +223,69 @@ header .headerText .checkOffer {
   margin-top: 78px;
 }
 
+.carousel {
+  height: 1089px;
+  margin-top: 80px;
+}
+.carousel img {
+  height: 1089px;
+}
+.carousel .carouselDescDiv {
+  margin-bottom: 284px;
+}
+.carousel .carouselDescDiv .carouselDesc {
+  font-size: 90px;
+  line-height: 102px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
+}
+.carousel .carouselDescDiv .carouselDesc :last-child {
+  color: #0dcfff;
+  font-family: "Molle", cursive;
+}
+.carousel .carouselDescDiv .loremText {
+  height: 114px;
+  font-size: 18px;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom: 34px;
+}
+.carousel .carouselDescDiv .carouselDescLink {
+  font-size: 18px;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+  padding-top: 34px;
+}
+
+.atisText {
+  font-size: 36px;
+  line-height: 82px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-family: "Molle", cursive;
+  text-align: center;
+  position: relative;
+  top: 56px;
+}
+
+.copyrightText {
+  height: 27px;
+  font-size: 18px;
+  line-height: 48px;
+  color: #bdbdbd;
+  text-align: center;
+  position: relative;
+  top: 32px;
+}
+
 @media (min-width: 1400px) {
   .container,
 .container-lg,

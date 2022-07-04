@@ -258,6 +258,75 @@ header {
     margin-top: 78px;
 }
 
+.carousel {
+    height: 1089px;
+    margin-top: 80px;
+
+    img {
+        height: 1089px;
+    }
+
+    .carouselDescDiv {
+        margin-bottom: 284px;
+
+        .carouselDesc {
+            font-size: 90px;
+            line-height: 102px;
+            color: #ffffff;
+            font-weight: 900;
+            font-family: "Roboto";
+            text-align: center;
+
+            :last-child {
+                color: #0dcfff;
+                font-family: 'Molle', cursive;
+            }
+        }
+
+        .loremText {
+            height: 114px;
+            font-size: 18px;
+            line-height: 48px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Roboto";
+            text-align: center;
+            padding-bottom: 34px;
+        }
+
+        .carouselDescLink {
+            font-size: 18px;
+            line-height: 48px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Roboto";
+            text-align: center;
+            padding-top: 34px;
+        }
+    }
+}
+
+.atisText {
+    font-size: 36px;
+    line-height: 82px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-family: 'Molle', cursive;
+    text-align: center;
+    position: relative;
+    top: 56px;
+}
+
+.copyrightText {
+    height: 27px;
+    font-size: 18px;
+    line-height: 48px;
+    color: #bdbdbd;
+    text-align: center;
+    position: relative;
+    top: 32px;
+}
+
 
 @media (min-width: 1400px) {
 
