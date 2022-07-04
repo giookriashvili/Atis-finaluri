@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
+
+* {
+    text-align: center;
+}
+
+.mainContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+header {
+    background: rgb(14, 93, 184);
+    background: linear-gradient(355deg, rgba(7, 187, 223, 0.43601190476190477) 38%, rgba(255, 255, 255, 1) 87%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 935px;
+
+    nav {
+        position: relative;
+        top: 100px;
+        font-family: 'Roboto', sans-serif;
+
+        .navLogo {
+            width: 90px;
+            height: 30px;
+        }
+
+        a {
+            color: #a5aec2 !important;
+            padding-right: 40px !important;
+        }
+
+        button {
+            color: #017dfb;
+            font-size: 16px;
+            width: 187px;
+            height: 51px;
+            border-radius: 26px;
+            filter: drop-shadow(0 0 32.5px rgba(1, 125, 251, 0.25));
+            background-color: #ffffff;
+            border: none;
+        }
+    }
+
+    .headerText {
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 320px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .greeceText {
+            width: 516px;
+            height: 132px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 82px;
+            color: #017dfb;
+            font-weight: 400;
+            font-family: "Roboto";
+            padding-top: 11px;
+        }
+
+        .checkOffer {
+            color: #017dfb;
+            font-size: 16px;
+            width: 187px;
+            height: 51px;
+            border-radius: 26px;
+            filter: drop-shadow(0 0 32.5px rgba(1, 125, 251, 0.25));
+            background-color: #ffffff;
+            border: none;
+        }
+    }
+}
+
+
+.blueBox {
+    width: 100%;
+    background-color: #017dfb;
+    position: relative;
+    bottom: 153px;
+    display: flex;
+    align-items: center;
+
+    i {
+        color: #379aff;
+    }
+
+    hr {
+        width: 120px;
+        color: #379aff;
+        position: relative;
+        bottom: 16px;
+    }
+
+    .bigHr {
+        width: 140px;
+    }
+
+    .blueBoxItems {
+        padding-top: 54px;
+        padding-bottom: 26px;
+    }
+
+    .blueBoxItemsP {
+        padding-top: 54px;
+        padding-bottom: 26px;
+        padding-left: 15px;
+    }
+
+    .blueBoxSearch {
+        margin-top: 48px;
+        margin-left: 15px;
+        width: 47px;
+        height: 47px;
+        border-radius: 23px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .mainContainer {
+        padding: 0px;
+    }
+
+    .greeceText {
+        width: 400px !important;
+        height: 100px !important;
+    }
+
+    .blueBoxFlexbox {
+        display: block !important;
+
+        .blueBoxItems {
+            margin-left: 50%;
+        }
+
+        .blueBoxItemsP {
+            margin-left: 50%;
+        }
+
+        .blueBoxSearch {
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .bigHr {
+            width: 120px;
+        }
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1600px;
+    }
+
+}
